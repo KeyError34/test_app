@@ -1,0 +1,16 @@
+.btnCastom{
+align-self: center;
+  padding: 5px 10px;
+  background-color: aqua;
+  border: none;
+  max-width: max-content;
+  border-radius: 5px;
+}
+.btnCastom:hover {
+   background-color: rgb(38, 201, 201);
+ }
+
+ .btnCastom:active {
+   background-color: rgb(27, 139, 139);
+ }
+  

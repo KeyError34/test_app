@@ -1,0 +1,32 @@
+.questionContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid purple;
+  max-width: 600px;
+  padding: 15px;
+
+  p {
+    line-height: 1.5rem;
+  }
+}
+.testContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: max-content;
+  button {
+    align-self: center;
+    padding: 5px 10px;
+    background-color: aqua;
+    border: none;
+    max-width: max-content;
+    border-radius: 5px;
+    &:hover {
+      background-color: rgb(38, 201, 201);
+    }
+    &:active {
+      background-color: rgb(27, 139, 139);
+    }
+  }
+}
+
